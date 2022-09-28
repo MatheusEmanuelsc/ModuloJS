@@ -1,0 +1,33 @@
+
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        
+        let elemento = document.createElement("p");
+        
+        elemento.innerHTML = "Meu parágrafo criado no JS"
+        
+        elemento.style.color = "coral"
+        elemento.style.fontSize = "25px"
+        
+        let novo_elemento = document.createElement("div")
+        
+        novo_elemento.style.backgroundColor = "cadetblue"
+        novo_elemento.style.padding = "5px"
+        novo_elemento.style.borderRadius = "5px"
+        
+        novo_elemento.innerHTML = "Ola mundo"
+
+        document.body.appendChild(elemento)
+        document.body.appendChild(novo_elemento)
+
+    </script>
+
+</body>
+</html>
